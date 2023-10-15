@@ -1,0 +1,43 @@
+h3 {
+    font-family: "pain-de-mie", sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+input,
+button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+/* Agrega estilos adicionales para el modo oscuro aquí */
+.button-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.btnfoot {
+    margin: 5px;
+}
+
+.btnfoot:first-child {
+    flex: 0 0 calc(50% - 10px); /* Ocupa el 50% del ancho con espacio a la derecha y entre los botones */
+    margin-right: 5px; /* Agrega espacio a la derecha del botón izquierdo */
+    margin-left: 0; /* Sin espacio a la izquierda del botón izquierdo */
+}
+
+.btnfoot:last-child {
+    flex: 0 0 calc(50% - 10px); /* Ocupa el 50% del ancho con espacio a la izquierda y entre los botones */
+    margin-left: 5px; /* Agrega espacio a la izquierda del botón derecho */
+    margin-right: 0; /* Sin espacio a la derecha del botón derecho */
+}
