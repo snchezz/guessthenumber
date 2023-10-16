@@ -5,3 +5,4 @@ To do
 - Poner instrucciones y poner variables de intentos
 - Arreglar alert siempre en ingles
 - Mensaje de validacion tampoco funciona en español
+- Mejorar UI en PC
