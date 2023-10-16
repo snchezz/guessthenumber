@@ -6,3 +6,4 @@ To do
 - Arreglar alert siempre en ingles
 - Mensaje de validacion tampoco funciona en español
 - Mejorar UI en PC
+- Confeti cuando ganes
